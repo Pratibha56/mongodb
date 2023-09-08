@@ -1,0 +1,16 @@
+use database
+
+show dbs
+db.createCollection('mycollection')
+
+db.collectionName.insertOne({ // insertone mtlb ek hi document allow karta h 
+    name: 'pratibha',
+    age:'21',
+    rollno:'20117',
+    city:"sikar",
+    blood_group: "O+"
+})
+
+show collections
+db.find()
+db.collection_name.drop()
